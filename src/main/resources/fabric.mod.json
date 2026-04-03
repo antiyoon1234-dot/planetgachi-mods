@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "planetgachi",
+  "version": "${version}",
+  "name": "Planetgachi Price Checker",
+  "description": "인게임에서 /pe iweb 가격조회 명령어로 Planetgachi 아이템 시세를 조회합니다.",
+  "authors": ["Planetgachi"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.planetgachi.PlanetgachiMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20"
+  }
+}
