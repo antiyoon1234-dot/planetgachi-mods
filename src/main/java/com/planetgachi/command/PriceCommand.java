@@ -28,7 +28,7 @@ public class PriceCommand {
 
     // anon key 없음 — Edge Function URL만 사용 (키는 서버에서만 보관)
     private static final String EDGE_URL    = "https://vdndejdmepjigbrssict.supabase.co/functions/v1/item-search";
-    private static final String MOD_VERSION = "1.0.0";
+    private static final String MOD_VERSION = "1.0.2";
     private static final int    MAX_RESULTS = 5;
     private static final int    TIMEOUT_SEC = 8;
 
