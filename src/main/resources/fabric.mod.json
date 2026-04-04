@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "planetgachi",
+  "version": "${version}",
+  "name": "Planetgachi Price Checker",
+  "description": "/gachi 명령어로 Planetgachi 아이템 시세 조회 및 가격 투표를 할 수 있습니다.",
+  "authors": ["Planetgachi"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.planetgachi.PlanetgachiMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20"
+  }
+}
