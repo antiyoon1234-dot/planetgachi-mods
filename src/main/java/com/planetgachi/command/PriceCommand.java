@@ -179,7 +179,7 @@ public class PriceCommand {
         source.sendFeedback(Text.literal(" 🌐 Planetgachi 명령어 도움말").formatted(Formatting.GREEN));
         source.sendFeedback(Text.literal("━━━━━━━━━━━━━━━━━━━━━━━━━━").formatted(Formatting.DARK_GREEN));
         source.sendFeedback(Text.literal(" /gachi 가격조회 ").formatted(Formatting.YELLOW).append(Text.literal("<아이템이름>").formatted(Formatting.WHITE)));
-        source.sendFeedback(Text.literal(" 이름 일부만 입력해도 검색됩니다.").formatted(Formatting.GRAY));
+        source.sendFeedback(Text.literal(" 이름 일부만 입력해도 검색이됩니다.").formatted(Formatting.GRAY));
         source.sendFeedback(Text.literal("  /gachi 가격조회 다이아").formatted(Formatting.DARK_GRAY));
         source.sendFeedback(Text.literal("  /gachi 가격조회 네더라이트").formatted(Formatting.DARK_GRAY));
         source.sendFeedback(Text.literal("━━━━━━━━━━━━━━━━━━━━━━━━━━").formatted(Formatting.DARK_GREEN));
