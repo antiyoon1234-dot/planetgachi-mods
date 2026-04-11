@@ -8,7 +8,7 @@
 
 | 항목 | 버전 |
 |------|------|
-| Minecraft | 1.20.1 |
+| Minecraft | 1.20.1 이상 |
 | Fabric Loader | 0.15.0 이상 |
 | Fabric API | 1.20.1 호환 버전 |
 
